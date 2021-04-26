@@ -62,8 +62,8 @@ export default function Cards({ content }) {
 				</Typography>
 			</CardContent>
 			<CardActions disableSpacing>
-				<IconButton aria-label='add to favorites'>
-					<FavoriteIcon onClick={changeBG} />
+				<IconButton aria-label='add to favorites' onClick={changeBG}>
+					<FavoriteIcon />
 				</IconButton>
 				<IconButton aria-label='share'>
 					<ShareIcon />
